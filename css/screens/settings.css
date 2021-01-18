@@ -1,0 +1,40 @@
+.settings-bg {
+  background-color: var(--light-gray);
+}
+
+.setting-options {
+  background-color: white;
+  padding: 0 30px;
+  margin-top: 40px;
+}
+
+.setting-options__app,
+.setting-options__app > div {
+  display: flex;
+  align-items: center;
+}
+
+.setting-options__app {
+  justify-content: space-between;
+  padding: 7px 0;
+}
+
+.setting-options__app span {
+  font-weight: 500;
+}
+
+.setting-options__app .fa-chevron-right {
+  color: var(--gray);
+}
+
+.setting-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--green);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Martin</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>1:12</span>
+      </div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="screen-header__chat">
+      <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+      <img
+        src="https://static.wikia.nocookie.net/peppapedia/images/8/84/Grandpa_Pig-0.png/revision/latest?cb=20200307162646"
+        class="user-component__avatar user-component__avatar--sm"
+      />
+      <div class="screen-header__chat-info">
+        <h1>Grandpa Pig</h1>
+        <h2>last seen last month at 9:45 PM</h2>
+      </div>
+    </header>
+
+    <main class="main-chat">
+      <div class="chat__timestamp"><span>29 Nov 2020</span></div>
+
+      <div class="message-row">
+        <h1>Good nite darling :)</h1>
+        <h2>9:45PM</h2>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply_column">
+        <i class="fas fa-plus fa-lg"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="  Write a message..." />
+        <i class="far fa-clone"></i>
+        <i class="fas fa-camera fa-lg"></i>
+        <i class="fas fa-microphone-alt fa-lg"></i>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Please reduce the screen width to run this app</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

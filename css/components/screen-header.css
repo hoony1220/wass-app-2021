@@ -1,0 +1,94 @@
+.screen-header {
+  padding: 60px 30px 0px 30px;
+}
+
+.screen-header__bg {
+  background-color: var(--light-gray);
+  padding-bottom: 15px;
+}
+
+.screen-header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--blue);
+  font-size: 20px;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.screen-header__title--gap {
+  margin-top: 42px;
+}
+
+.screen-header__category {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: var(--gray);
+  display: flex;
+  align-items: center;
+  padding: 1px 2px;
+}
+
+.screen-header__category div {
+  font-size: 12px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.screen-header__category div:first-child {
+  width: 50%;
+  height: 90%;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.screen-header__category div:last-child {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.screen-header__menu-add-jobs {
+  position: relative;
+}
+
+.screen-header__menu-add-jobs .fa-plus {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+}
+
+.screen-header__subtitle {
+  color: black;
+  font-weight: 600;
+}
+
+.screen-header__chat {
+  position: fixed;
+  display: flex;
+  top: 0;
+  align-items: center;
+  padding: 60px 30px 20px 30px;
+}
+
+.screen-header__chat .fa-chevron-left {
+  color: var(--blue);
+  margin-right: 25px;
+}
+
+.screen-header__chat-info h1 {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.screen-header__chat-info h2 {
+  color: var(--gray);
+}

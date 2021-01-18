@@ -1,0 +1,9 @@
+.Chat-options {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px solid var(--gray);
+}

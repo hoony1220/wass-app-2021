@@ -1,0 +1,92 @@
+.my-status {
+  background-color: white;
+  margin-top: 60px;
+  padding: 10px 30px;
+  display: flex;
+  border: 1px solid var(--gray);
+}
+
+.my-status__profile {
+  position: relative;
+}
+
+.fa-plus-circle {
+  color: var(--blue);
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+}
+
+.my-status__profile-current h1 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.my-status__profile-current h2 {
+  font-size: 13px;
+  color: var(--gray);
+}
+
+.my-status__profile-modify {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.my-status__profile-btns {
+  display: flex;
+}
+
+.my-status__profile-btns div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--light-gray);
+  color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-status__profile-btns div:first-child {
+  margin-right: 15px;
+}
+
+.friends-status {
+  margin-top: 40px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  border: 1px solid var(--gray);
+  color: gray;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+@keyframes hideSplashScreen {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  color: white;
+  background-color: var(--green);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 600;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 2s;
+}

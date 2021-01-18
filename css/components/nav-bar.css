@@ -1,0 +1,68 @@
+.status-body {
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 30px 30px 30px;
+  background-color: var(--light-gray);
+  box-sizing: border-box;
+  border-top: 1px solid var(--gray);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--gray);
+  position: relative;
+}
+
+.nav__link span {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.nav__notify {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.activate {
+  color: var(--blue);
+}
+
+.activate .fa-user-circle {
+  color: var(--blue);
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav__btn {
+  animation: appearBtnAnimation 1s ease-in-out;
+}

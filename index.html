@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to WassApp</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>1:12</span>
+      </div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <div class="welcome-header__icon">
+        <i class="fab fa-whatsapp fa-5x"></i>
+        <span>WassApp</span>
+      </div>
+    </header>
+
+    <form action="status.html" method="get" class="signup-form">
+      <h1 class="signup-form__text">Create a New Account</h1>
+      <label for="phone">Phone</label>
+      <input
+        id="phone"
+        type="tel"
+        placeholder="Phone number (Format: 123-4567-8910)"
+        pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+      />
+      <label for="email">Email Address</label>
+      <input id="email" type="email" placeholder="Email" required />
+      <label for="password">Password</label>
+      <input
+        id="password"
+        type="password"
+        placeholder="Password"
+        required
+        minlength="8"
+      />
+      <input id="submit" type="submit" value="Singup" />
+      <h2>or signup with<h2>
+    </form>
+
+    <div class="oauth-links">
+        <div><i class="fab fa-facebook fa-2x"></i></div>
+        <div><i class="fab fa-instagram fa-2x"></i></div>
+        <div><i class="fab fa-google fa-2x"></i></div>
+    </div>
+
+    <div id="no-mobile">
+        <span>Please reduce the screen width to run this app</span>
+      </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
